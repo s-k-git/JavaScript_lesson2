@@ -1,4 +1,4 @@
-function fizzbuzz() {
+const fizzbuzz = () => {
   const fizzNo = Number(document.getElementById("fizzNo").value);
   const buzzNo = Number(document.getElementById("buzzNo").value);
   const result = document.getElementById("fizzbuzz-result");
